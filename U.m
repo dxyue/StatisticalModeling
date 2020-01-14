@@ -1,0 +1,10 @@
+function PI = U(betac,p,q,n,I)
+% betac = 1;
+% p = 1;
+% q = 1;
+% n = 1;
+% A = 0:0.1:5;
+temp1 = gamma(n+q)./betac./gamma(n)./beta(p,q);
+temp2 = (I./betac).^(n-1);
+temp3 = kummerU(q+n,1+n-p,I./betac);
+PI = temp1.*temp2.*temp3;
