@@ -1,0 +1,98 @@
+# The parameter settings for the distributions
+# All the parameters of distributions are consistent with the equations in the paper. 
+
+A : denote the amplitude values 
+
+I : denote the intensity values
+
+n : the number of look
+% *********************Parameters for different distributions**************************
+
+%% Gamma distribution in Table 1 and Table 2 of the paper
+sigma = 1;
+n = 1;
+
+%% G distribution in Table 2 of the paper
+beta = 0.5; 
+gam = 0.5; 
+alpha = -1/2;
+n = 1;
+
+%% K distribution in Table 2 of the paper
+beta = 1;
+alpha = 1;
+n = 1;
+
+%% G0 distribution in Table 2 of the paper
+gam = 1;
+alpha = -2;
+n = 1;
+
+%% Gh distribution in Table 2 of the paper
+lambda = 1;
+mu = 1;
+n = 1;
+
+%% GC distribution in Table 2 of the paper
+a = 1/4;
+b1 = 1;
+v1 = 1;
+b2 = 1;
+v2 = 1;
+
+%% Rice distribution in Equation(54) of the paper
+sigma = 0.5;
+A0 = 0.5;
+
+%% RiIG distribution in Equation(64) of the paper
+alpha = 2;
+beta = 0;
+delta = 10;
+
+%% W distribution in Equation(74) of the paper
+beta = 1;
+p = 1;
+q = 1;
+n = 1;
+
+%% U distribution in Equation(78) of the paper
+beta = 1;
+p = 1;
+q = 1;
+n = 1;
+
+%% SaSGR distribution in Equation(83) of the paper
+gam = 1;
+alpha = 1;
+
+%% GGR distribution in Equation(87) of the paper
+gam = 1;
+c = 1;
+
+%% GrR distribution in Equation(89) of the paper
+kappa = 1;
+nu = 1;
+eta = 1;
+
+%% log-normal distribution in Table 3 of the paper
+beta = 1;
+V = 1;
+
+%% Weibull distribution in Table 3 of the paper
+c = 1;
+b = 1;
+
+%% Fisher distribution in Table 3 of the paper
+L = 1;
+M = 1;
+mu = 1;
+
+%% GrD-1 distribution in Table 3 of the paper
+a = 1;
+b = 1;
+v = 1;
+
+%% GrD-2 distribution in Table 3 of the paper
+v = 1;
+k = 1;
+eta = 1;

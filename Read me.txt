@@ -1,0 +1,15 @@
+#Code for PDFs and plots of the distributions in the paper[SAR image Statistical Modeling Part I: Single-pixel Models]
+#by Dong-Xiao Yue, Feng Xu, Alejandro Frery and Ya-Qiu Jin.
+
+
+If you find the code is useful, cite the paper:
+@article{GGCS,
+  title={A Generalized Gaussian Coherent Scatterer Model for Correlated SAR Texture},
+  author={Dong-Xiao Yue, Feng Xu, Alejandro C. Frery ,Ya-Qiu Jin.},
+  journal={...},
+  year={...}
+}
+
+The main function is 'Plots.m' and other functions are subfunctions.
+
+The parameters setting is detailed in file "Parameters setting.txt".
